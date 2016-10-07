@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA2C7D101D47AF3B00C42434 /* CCDataSourceForTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2C7D0F1D47AF3B00C42434 /* CCDataSourceForTableView.m */; };
+		EA4FB5B81D4A694600933367 /* CCWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4FB5B71D4A694600933367 /* CCWindowController.m */; };
+		EA4FB5BD1D4A78F100933367 /* CCView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4FB5BC1D4A78F100933367 /* CCView.m */; };
 		EA6806061D43E75300E4D9AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6806051D43E75300E4D9AD /* AppDelegate.m */; };
 		EA6806091D43E75300E4D9AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6806081D43E75300E4D9AD /* main.m */; };
 		EA68060C1D43E75300E4D9AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA68060B1D43E75300E4D9AD /* ViewController.m */; };
 		EA68060E1D43E75300E4D9AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA68060D1D43E75300E4D9AD /* Assets.xcassets */; };
 		EA6806111D43E75300E4D9AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA68060F1D43E75300E4D9AD /* Main.storyboard */; };
+		EAA3E3711D5264630031529F /* CCSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA3E36F1D5264630031529F /* CCSettingsController.m */; };
+		EAA3E3721D5264630031529F /* CCSettingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA3E3701D5264630031529F /* CCSettingsController.xib */; };
+		EAA3E3761D52648A0031529F /* CCSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA3E3751D52648A0031529F /* CCSettings.m */; };
+		EAA3E3791D526B0E0031529F /* CCIntegerValueFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA3E3781D526B0E0031529F /* CCIntegerValueFormatter.m */; };
+		EAE5249A1D44CF4E00B44F23 /* CCClient.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE524991D44CF4E00B44F23 /* CCClient.m */; };
+		EAE524A01D44E27600B44F23 /* CCLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE5249E1D44E27600B44F23 /* CCLogin.m */; };
+		EAE524A11D44E27600B44F23 /* CCLogin.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAE5249F1D44E27600B44F23 /* CCLogin.xib */; };
+		EAE524A51D44F60700B44F23 /* CCAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE524A41D44F60700B44F23 /* CCAnimator.m */; };
+		EAE524A91D452EEE00B44F23 /* CCThread.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE524A81D452EEE00B44F23 /* CCThread.m */; };
+		EAE524AE1D45325100B44F23 /* CCDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE524AD1D45325100B44F23 /* CCDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA2C7D0E1D47AF3B00C42434 /* CCDataSourceForTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDataSourceForTableView.h; sourceTree = "<group>"; };
+		EA2C7D0F1D47AF3B00C42434 /* CCDataSourceForTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDataSourceForTableView.m; sourceTree = "<group>"; };
+		EA4FB5B61D4A694600933367 /* CCWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCWindowController.h; sourceTree = "<group>"; };
+		EA4FB5B71D4A694600933367 /* CCWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCWindowController.m; sourceTree = "<group>"; };
+		EA4FB5BA1D4A696600933367 /* CCWindowControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCWindowControllerDelegate.h; sourceTree = "<group>"; };
+		EA4FB5BB1D4A78F100933367 /* CCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCView.h; sourceTree = "<group>"; };
+		EA4FB5BC1D4A78F100933367 /* CCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCView.m; sourceTree = "<group>"; };
 		EA6806011D43E75300E4D9AD /* ChatClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6806041D43E75300E4D9AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA6806051D43E75300E4D9AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -24,6 +44,26 @@
 		EA68060D1D43E75300E4D9AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA6806101D43E75300E4D9AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA6806121D43E75300E4D9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA3E36E1D5264630031529F /* CCSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSettingsController.h; sourceTree = "<group>"; };
+		EAA3E36F1D5264630031529F /* CCSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSettingsController.m; sourceTree = "<group>"; };
+		EAA3E3701D5264630031529F /* CCSettingsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCSettingsController.xib; sourceTree = "<group>"; };
+		EAA3E3741D52648A0031529F /* CCSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSettings.h; sourceTree = "<group>"; };
+		EAA3E3751D52648A0031529F /* CCSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSettings.m; sourceTree = "<group>"; };
+		EAA3E3771D526B0E0031529F /* CCIntegerValueFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIntegerValueFormatter.h; sourceTree = "<group>"; };
+		EAA3E3781D526B0E0031529F /* CCIntegerValueFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIntegerValueFormatter.m; sourceTree = "<group>"; };
+		EAE524981D44CF4E00B44F23 /* CCClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCClient.h; sourceTree = "<group>"; };
+		EAE524991D44CF4E00B44F23 /* CCClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCClient.m; sourceTree = "<group>"; };
+		EAE5249C1D44DD6B00B44F23 /* CCClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCClientDelegate.h; sourceTree = "<group>"; };
+		EAE5249D1D44E27600B44F23 /* CCLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLogin.h; sourceTree = "<group>"; };
+		EAE5249E1D44E27600B44F23 /* CCLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLogin.m; sourceTree = "<group>"; };
+		EAE5249F1D44E27600B44F23 /* CCLogin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCLogin.xib; sourceTree = "<group>"; };
+		EAE524A31D44F60700B44F23 /* CCAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAnimator.h; sourceTree = "<group>"; };
+		EAE524A41D44F60700B44F23 /* CCAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAnimator.m; sourceTree = "<group>"; };
+		EAE524A71D452EEE00B44F23 /* CCThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCThread.h; sourceTree = "<group>"; };
+		EAE524A81D452EEE00B44F23 /* CCThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCThread.m; sourceTree = "<group>"; };
+		EAE524AB1D452F6E00B44F23 /* CCThreadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCThreadDelegate.h; sourceTree = "<group>"; };
+		EAE524AC1D45325100B44F23 /* CCDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDataSource.h; sourceTree = "<group>"; };
+		EAE524AD1D45325100B44F23 /* CCDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +77,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA2C7D111D47AF4300C42434 /* DataSourceForTableView */ = {
+			isa = PBXGroup;
+			children = (
+				EA2C7D0E1D47AF3B00C42434 /* CCDataSourceForTableView.h */,
+				EA2C7D0F1D47AF3B00C42434 /* CCDataSourceForTableView.m */,
+			);
+			name = DataSourceForTableView;
+			sourceTree = "<group>";
+		};
+		EA4FB5B91D4A694C00933367 /* WindowController */ = {
+			isa = PBXGroup;
+			children = (
+				EA4FB5BA1D4A696600933367 /* CCWindowControllerDelegate.h */,
+				EA4FB5B61D4A694600933367 /* CCWindowController.h */,
+				EA4FB5B71D4A694600933367 /* CCWindowController.m */,
+			);
+			name = WindowController;
+			sourceTree = "<group>";
+		};
+		EA4FB5BE1D4A78F600933367 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				EA4FB5BB1D4A78F100933367 /* CCView.h */,
+				EA4FB5BC1D4A78F100933367 /* CCView.m */,
+			);
+			name = HeaderView;
+			sourceTree = "<group>";
+		};
 		EA6805F81D43E75300E4D9AD = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +124,14 @@
 		EA6806031D43E75300E4D9AD /* ChatClient */ = {
 			isa = PBXGroup;
 			children = (
+				EAA3E3731D52646B0031529F /* Settings */,
+				EA4FB5BE1D4A78F600933367 /* HeaderView */,
+				EA4FB5B91D4A694C00933367 /* WindowController */,
+				EAE524A61D44F60E00B44F23 /* Animator */,
+				EAE524AA1D452EF300B44F23 /* Thread */,
+				EAE5249B1D44CF5300B44F23 /* Client */,
+				EAE524AF1D45325500B44F23 /* DataSource */,
+				EAE524A21D44E27A00B44F23 /* Login */,
 				EA6806041D43E75300E4D9AD /* AppDelegate.h */,
 				EA6806051D43E75300E4D9AD /* AppDelegate.m */,
 				EA68060A1D43E75300E4D9AD /* ViewController.h */,
@@ -74,6 +150,77 @@
 				EA6806081D43E75300E4D9AD /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAA3E3731D52646B0031529F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EAA3E37A1D526B140031529F /* IntegerValueFormatter */,
+				EAA3E3741D52648A0031529F /* CCSettings.h */,
+				EAA3E3751D52648A0031529F /* CCSettings.m */,
+				EAA3E36E1D5264630031529F /* CCSettingsController.h */,
+				EAA3E36F1D5264630031529F /* CCSettingsController.m */,
+				EAA3E3701D5264630031529F /* CCSettingsController.xib */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		EAA3E37A1D526B140031529F /* IntegerValueFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				EAA3E3771D526B0E0031529F /* CCIntegerValueFormatter.h */,
+				EAA3E3781D526B0E0031529F /* CCIntegerValueFormatter.m */,
+			);
+			name = IntegerValueFormatter;
+			sourceTree = "<group>";
+		};
+		EAE5249B1D44CF5300B44F23 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				EAE5249C1D44DD6B00B44F23 /* CCClientDelegate.h */,
+				EAE524981D44CF4E00B44F23 /* CCClient.h */,
+				EAE524991D44CF4E00B44F23 /* CCClient.m */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		EAE524A21D44E27A00B44F23 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EA2C7D111D47AF4300C42434 /* DataSourceForTableView */,
+				EAE5249D1D44E27600B44F23 /* CCLogin.h */,
+				EAE5249E1D44E27600B44F23 /* CCLogin.m */,
+				EAE5249F1D44E27600B44F23 /* CCLogin.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		EAE524A61D44F60E00B44F23 /* Animator */ = {
+			isa = PBXGroup;
+			children = (
+				EAE524A31D44F60700B44F23 /* CCAnimator.h */,
+				EAE524A41D44F60700B44F23 /* CCAnimator.m */,
+			);
+			name = Animator;
+			sourceTree = "<group>";
+		};
+		EAE524AA1D452EF300B44F23 /* Thread */ = {
+			isa = PBXGroup;
+			children = (
+				EAE524AB1D452F6E00B44F23 /* CCThreadDelegate.h */,
+				EAE524A71D452EEE00B44F23 /* CCThread.h */,
+				EAE524A81D452EEE00B44F23 /* CCThread.m */,
+			);
+			name = Thread;
+			sourceTree = "<group>";
+		};
+		EAE524AF1D45325500B44F23 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				EAE524AC1D45325100B44F23 /* CCDataSource.h */,
+				EAE524AD1D45325100B44F23 /* CCDataSource.m */,
+			);
+			name = DataSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +280,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAA3E3721D5264630031529F /* CCSettingsController.xib in Resources */,
+				EAE524A11D44E27600B44F23 /* CCLogin.xib in Resources */,
 				EA68060E1D43E75300E4D9AD /* Assets.xcassets in Resources */,
 				EA6806111D43E75300E4D9AD /* Main.storyboard in Resources */,
 			);
@@ -145,9 +294,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAA3E3711D5264630031529F /* CCSettingsController.m in Sources */,
 				EA68060C1D43E75300E4D9AD /* ViewController.m in Sources */,
 				EA6806091D43E75300E4D9AD /* main.m in Sources */,
+				EAE524AE1D45325100B44F23 /* CCDataSource.m in Sources */,
+				EAE5249A1D44CF4E00B44F23 /* CCClient.m in Sources */,
+				EAE524A91D452EEE00B44F23 /* CCThread.m in Sources */,
+				EA4FB5BD1D4A78F100933367 /* CCView.m in Sources */,
+				EAA3E3791D526B0E0031529F /* CCIntegerValueFormatter.m in Sources */,
+				EAA3E3761D52648A0031529F /* CCSettings.m in Sources */,
+				EA2C7D101D47AF3B00C42434 /* CCDataSourceForTableView.m in Sources */,
 				EA6806061D43E75300E4D9AD /* AppDelegate.m in Sources */,
+				EAE524A51D44F60700B44F23 /* CCAnimator.m in Sources */,
+				EAE524A01D44E27600B44F23 /* CCLogin.m in Sources */,
+				EA4FB5B81D4A694600933367 /* CCWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +449,7 @@
 				EA6806171D43E75300E4D9AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
